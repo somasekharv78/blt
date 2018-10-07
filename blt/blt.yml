@@ -9,7 +9,8 @@ project:
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: master
-  remotes: {  }
+  remotes:
+   - 'bltproject@svn-3239.devcloud.hosting.acquia.com:bltproject.git'
 deploy:
   tag_source: true
 drush:
@@ -34,3 +35,5 @@ modules:
   prod:
     enable: [acquia_connector, shield]
     uninstall: [devel, views_ui]
+cloud:
+  appId: 4d444062-d2c4-43e5-8d4d-e7918ea8ad1e
