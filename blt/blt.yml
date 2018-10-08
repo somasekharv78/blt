@@ -11,6 +11,7 @@ git:
   default_branch: master
   remotes:
    - 'bltproject@svn-3239.devcloud.hosting.acquia.com:bltproject.git'
+   -  'https://github.com/vsomu/blt.git'
 deploy:
   tag_source: true
 drush:
